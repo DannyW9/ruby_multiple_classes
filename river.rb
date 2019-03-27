@@ -24,5 +24,9 @@ def lose_fish(fish)
   @fish.delete(fish)
 end
 
+def add_fish(fish)
+  @fish.push(fish)
+end
+
 
 end
